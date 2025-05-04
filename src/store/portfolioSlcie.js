@@ -4,7 +4,7 @@ const initialProjects = [
     {
         id: '1',
         title: 'Creative Web Design',
-        catagory: 'Web Design',
+        category: 'Web Design',
         image : "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
         description: "Modern, responsive website design for an innovative tech startup focused on AI solutions.",
         client: 'TechVision AI',
@@ -14,7 +14,7 @@ const initialProjects = [
     {
         id: '2',
         title: 'E-commerce Platform',
-        catagory: 'Web Development',
+        category: 'Web Development',
         image : 'https://images.pexels.com/photos/6214474/pexels-photo-6214474.jpeg?auto=compress&cs=tinysrgb&w=600',
         description: "Comprehensive e-commerce platform with user-friendly interface and secure payment integration.",
         client: 'ShopSmart',
@@ -24,7 +24,7 @@ const initialProjects = [
     {
         id: '3',
         title: 'Mobile App Design',
-        catagory: 'Mobile App',
+        category: 'Mobile App',
         image:'https://plus.unsplash.com/premium_photo-1719839720591-d43eb07de1da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fG1vYmlsZSUyMGFwcCUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D',
         description: "Intuitive mobile app design for a fitness tracking application with real-time data analytics.",
         client: 'We Connect',
@@ -34,7 +34,7 @@ const initialProjects = [
     {
         id: '4',
         title: 'Brand Identity',
-        catagory: 'Branding',
+        category: 'Branding',
         image: "https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&w=600",
         description: "Complete brand identity package including logo design, color palette, and typography for a new startup.",
         client: 'Brandify',
@@ -73,7 +73,7 @@ const portfolioSlice = createSlice({
     name: 'portfolio', 
     initialState,
     reducers: {
-        filteredProjects: (state, action) => {
+        filterProjects: (state, action) => {
             const filter = action.payload;
             state.activeFilter = filter;
             if (filter === 'All'){
