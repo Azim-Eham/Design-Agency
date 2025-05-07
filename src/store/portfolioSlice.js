@@ -80,17 +80,17 @@ const portfolioSlice = createSlice({
                 state.filteredProjects = state.projects;
             } else{
                 state.filteredProjects = state.projects.filter(
-                    (project) => project.catagory === filter
+                    (project) => project.category === filter
                 );
             }
         },
         addProject: (state, action) => {
             state.projects.push(action.payload);
-            if (state.activeFilter === 'All' || action.payload.catagory === state.activeFilter){
+            if (state.activeFilter === 'All' || action.payload.category === state.activeFilter){
                 state.filteredProjects =state.projects.filter(
                     (project) => 
                         state.activeFilter === 'All' ||
-                    project.catagory === state.activeFilter
+                    project.category === state.activeFilter
                 )
             }
         },
@@ -102,7 +102,7 @@ const portfolioSlice = createSlice({
     },
 })
 
-export const {filteredProjects, addProject, deleteProject} = portfolioSlice.actions;
+export const {filterProjects, addProject, deleteProject} = portfolioSlice.actions;
 
 export const selectProjects = (state) => state.portfolio.projects;
 export const selectFilteredProjects = (state) => state.portfolio.filteredProjects;
