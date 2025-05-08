@@ -72,7 +72,7 @@ const Header = () => {
     {/*Mobile Menu*/}
     <div
         className={`md:hidden fixed top-[4.5rem] left-0 right-0 bg-white/90 dark:bg-gray-800/90 transform transition-all duration-300 ease-in-out ${
-            isMenuOpen ? 'translate-y-0 backdrop-blur-md shadow-lg' : '-translate-y-full'
+            isMenuOpen ? 'translate-y-0 backdrop-blur-md shadow-lg z-50' : '-translate-y-full'
           }`}>
             <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">
                 {navLinks.map(link=>(

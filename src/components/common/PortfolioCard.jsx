@@ -4,7 +4,7 @@ import {ArrowUpRight} from 'lucide-react'
 
 const PortfolioCard = ({project}) => {
   return (
-    <div className='group overflow-hidden rounded-lg bg-white dark:bg-gray-700 shadow-md hover:shadow-xl transition-all duration-300'>
+    <div className='group overflow-hidden rounded-lg bg-white dark:bg-blue-300/10  shadow-md hover:shadow-xl transition-all duration-300'>
       <div className='relative overflow-hidden aspect-video'>
         <img 
         src={project.image} 
@@ -22,18 +22,18 @@ const PortfolioCard = ({project}) => {
       <div className='p-6'>
         <div className='flex justify-between items-start mb-4'>
           <div>
-            <span className='inline-block px-3 py-1 text-xs font-medium bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full mb-2'>
+            <span className='inline-block px-3 py-1 text-xs font-medium bg-blue-100 dark:bg-blue-500/30 text-blue-700 dark:text-blue-300 rounded-full mb-2 transition-colors'>
               {project.category}
             </span>
-            <h3 className="text-xl font-semibold text-dark-800 dark:text-white mb-2">
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2 transition-colors">
               {project.title}
             </h3>
-            <p className="text-dark-600 dark:text-gray-300 text-sm">
+            <p className="text-gray-600 dark:text-gray-300 text-sm transition-colors">
               Client: {project.client}
             </p>
           </div>
         </div>
-        <p className="text-dark-600 dark:text-gray-300 mb-4 line-clamp-2">
+        <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-2 transition-colors">
           {project.description}
         </p>
         
@@ -49,7 +49,7 @@ const PortfolioCard = ({project}) => {
         </div>
         <Link 
           to={`/portfolio/${project.id}`} 
-          className="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
+          className="inline-flex items-center text-blue-600 dark:text-blue-400 font-medium hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
         >
           View Project <ArrowUpRight size={16} className="ml-1" />
         </Link>
