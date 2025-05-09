@@ -20,8 +20,8 @@ A modern, responsive design agency/creative studio website built with **React**,
 
 ## 🔗 Live Demo
 
-👉 [Live Website](https://your-live-demo-link.com)  
-🚀 Deployed with [Vercel](https://design-agency-blond.vercel.app/) / [Netlify](https://netlify.com/)
+  
+🚀 Deployed with [Vercel](https://design-agency-kappa.vercel.app/)
 
 ---
 
