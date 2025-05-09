@@ -23,7 +23,7 @@ const Button = ({
     secondary: 'bg-gray-300 text-white hover:bg-gray-400 focus:ring-gray-500 disabled:bg-gray-200',
     accent: 'bg-red-600 text-white hover:bg-red-700 focus:ring-red-500 disabled:bg-red-300',
     outline: 'border border-blue-500 text-blue-500 hover:bg-blue-300/20 dark:hover:bg-blue-400/30 focus:ring-blue-500 disabled:opacity-50',
-    ghost: 'text-blue-600 hover:bg-blue-50 dark:hover:bg-gray-700 focus:ring-blue-500 disabled:opacity-50',
+    ghost: 'text-blue-500 hover:bg-blue-50 dark:hover:bg-gray-700 focus:ring-blue-500 disabled:opacity-50',
   };
 
   const sizeStyles = {

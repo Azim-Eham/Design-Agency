@@ -5,7 +5,7 @@ import Button from '../components/common/Button'
 
 const About = () => {
   return (
-    <div>
+    <div className='min-h-screen pt-16'>
       {/* Hero Section */}
       <section className='py-16 md:py-24 bg-gray-50 dark:bg-gray-700 transition-colors'>
         <div className='container mx-auto px-4 md:px-6'>
@@ -30,7 +30,7 @@ const About = () => {
       </section>
 
       {/* Our Story */}
-      <section className="py-16 md:py-24 bg-white dark:bg-gray-700 transition-colors">
+      <section className="py-16 md:py-24 bg-white dark:bg-gray-800 transition-colors">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -93,7 +93,7 @@ const About = () => {
       </section>
 
       {/* Our Value */}
-      <section className='py-16 md:py-24 bg-gray-50 dark:bg-gray-700 transition-colors'>
+      <section className='py-16 md:py-24 bg-gray-50 dark:bg-gray-800 transition-colors'>
         <div className='container mx-auto px-4 md:px-6'>
           <SectionTitle 
           title="Our Value" subtitle="The principles that guide our work and shape our culture."/>
