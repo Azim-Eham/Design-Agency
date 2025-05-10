@@ -102,7 +102,7 @@ const Portfolio = () => {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-300 mb-6 italic">
-                "Nexus Studio transformed our brand with a stunning website redesign. Their team was professional, creative, and delivered beyond our expectations."
+                "Azim Studio transformed our brand with a stunning website redesign. Their team was professional, creative, and delivered beyond our expectations."
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
@@ -127,7 +127,7 @@ const Portfolio = () => {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-300 mb-6 italic">
-                "Working with Nexus Studio on our brand identity was an incredible experience. They took the time to understand our vision and created a brand that perfectly represents us."
+                "Working with Azim Studio on our brand identity was an incredible experience. They took the time to understand our vision and created a brand that perfectly represents us."
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
@@ -152,7 +152,7 @@ const Portfolio = () => {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-300 mb-6 italic">
-                "The UI/UX design work that Nexus Studio did for our app completely transformed the user experience. The result was an immediate increase in user engagement and retention."
+                "The UI/UX design work that Azim Studio did for our app completely transformed the user experience. The result was an immediate increase in user engagement and retention."
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full overflow-hidden mr-4">

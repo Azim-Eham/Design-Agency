@@ -20,7 +20,7 @@ const About = () => {
           <div className="relative mx-auto max-w-5xl">
             <img 
               src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600" 
-              alt="Nexus Studio team" 
+              alt="Azim Studio team" 
               className="w-full h-auto rounded-lg shadow-xl"
             />
             <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-blue-400/10 rounded-full filter blur-xl -z-10"></div>
@@ -37,7 +37,7 @@ const About = () => {
               <SectionTitle title="Our Story" centered={false} className="mb-8" />
               <div className='text-gray-700 dark:text-gray-200'>
                 <p className="leading-relaxed">
-                  Founded in 2019, Nexus Studio began with a simple mission: to bridge the gap between aesthetics and functionality in digital design. Our founders, with backgrounds in both design and technology, saw an opportunity to create a studio that truly understood how to make beautiful designs that perform.
+                  Founded in 2019, Azim Studio began with a simple mission: to bridge the gap between aesthetics and functionality in digital design. Our founders, with backgrounds in both design and technology, saw an opportunity to create a studio that truly understood how to make beautiful designs that perform.
                 </p>
                 <p className="leading-relaxed">
                   Over the years, we've grown from a small team of three to a diverse group of creative professionals. We've expanded our services but maintained our core philosophy: that thoughtful design and technical excellence should work together to create meaningful experiences.

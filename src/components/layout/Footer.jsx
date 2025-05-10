@@ -84,7 +84,7 @@ const Footer = () => {
                     </li>
                     <li className="flex items-center">
                         <Mail size={20} className="text-primary-400 mr-3 flex-shrink-0" />
-                        <a href="mailto:hello@nexusstudio.com" className="text-gray-300 hover:text-primary-400 transition-colors">xyz@gmai.com</a>
+                        <a href="mailto:hello@Azimstudio.com" className="text-gray-300 hover:text-primary-400 transition-colors">xyz@gmai.com</a>
                     </li>
                     </ul>
                 </div>
@@ -93,7 +93,7 @@ const Footer = () => {
             {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-700 text-center lg:flex lg:items-center lg:justify-between">
           <p className="text-gray-400 text-sm mb-4 lg:mb-0">
-            &copy; {currentYear} Nexus Studio. All rights reserved.
+            &copy; {currentYear} Azim Studio. All rights reserved.
           </p>
           <div className="flex flex-wrap justify-center lg:justify-end gap-x-8 gap-y-2 text-sm text-gray-400">
             <Link to="/privacy-policy" className="hover:text-primary-400 transition-colors">Privacy Policy</Link>

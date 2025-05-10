@@ -133,7 +133,7 @@ const Contact = () => {
                       Email Address
                     </h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      <a href="mailto:hello@nexusstudio.com" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                      <a href="mailto:hello@Azimstudio.com" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                         xyz@gmail.com
                       </a>
                     </p>

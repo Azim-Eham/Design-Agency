@@ -163,7 +163,7 @@ const Home = () => {
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img 
                   src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=600" 
-                  alt="Nexus Studio team collaborating" 
+                  alt="<Azim></Azim> Studio team collaborating" 
                   className="w-full h-auto"
                 />
               </div>
