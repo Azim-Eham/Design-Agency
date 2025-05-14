@@ -5,7 +5,7 @@ import Button from '../components/common/Button'
 import PortfolioCard from '../components/common/PortfolioCard'
 import SectionTitle from '../components/common/SectionTitle'
 import {useSelector} from 'react-redux'
-import {selectProjects} from '../store/portfolioSlice'
+import {selectProjects} from '../redux/portfolioSlice'
 
 const Home = () => {
 

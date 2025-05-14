@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectFilteredProjects, selectActiveFilter, filterProjects } from '../store/portfolioSlice';
+import { selectFilteredProjects, selectActiveFilter, filterProjects } from '../redux/portfolioSlice';
 import SectionTitle from '../components/common/SectionTitle';
 import PortfolioCard from '../components/common/PortfolioCard';
 
